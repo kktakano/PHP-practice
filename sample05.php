@@ -19,6 +19,10 @@
 <h2>Practice</h2>
 <pre>
 <!-- ここにプログラムを記述します -->
+<?php $sum = 100+1050+200; ?>
+<?php $tax = 1.08 ?>
+合計金額は：<?php print($sum); ?>円です
+税込価格は：<?php print($sum*$tax); ?>円です
 </pre>
 </main>
 </body>    
