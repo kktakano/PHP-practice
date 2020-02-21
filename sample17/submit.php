@@ -18,7 +18,7 @@
 <main>
 <h2>Practice</h2>
 <pre>
-<!-- ここにプログラムを記述します -->
+  お名前： <?php print(htmlspecialchars($_REQUEST['my_name'], ENT_QUOTES));?>
 </pre>
 </main>
 </body>    
