@@ -14,17 +14,12 @@
 <header>
 <h1 class="font-weight-normal">PHP</h1>    
 </header>
+
 <main>
 <h2>Practice</h2>
-
-<form action="submit.php" method="post">
-  <P>性別：
-    <input type="radio" name="gender" value="男性"> 男性
-    ／
-    <input type="radio" name="gender" value="女性"> 女性
-  </P>
-  <input type="submit" value="送信する">
-</form>
+<pre>
+  <?php print(htmlspecialchars($_POST['gender'], ENT_QUOTES)); ?>
+</pre>
 </main>
 </body>    
 </html>
